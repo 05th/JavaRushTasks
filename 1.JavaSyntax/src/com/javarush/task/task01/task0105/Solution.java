@@ -8,6 +8,6 @@ public class Solution {
     public static void main(String[] args) {
         String name;
         int age;
-        String city;//напишите тут ваш код
+        String city; //напишите тут ваш код
     }
 }
