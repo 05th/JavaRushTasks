@@ -13,9 +13,9 @@ public class Solution {
 
     public static void main(String[] args) throws Exception {
         //напишите тут ваш код
-    Scanner sc = new Scanner(System.in);
-    int n = sc.nextInt();
-    array = new int[n];
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        array = new int[n];
         for (int i = 0; i < n; i++) {
             array[i] = sc.nextInt();
         }
@@ -27,5 +27,4 @@ public class Solution {
         }
         System.out.println(max);
     }
-
 }
