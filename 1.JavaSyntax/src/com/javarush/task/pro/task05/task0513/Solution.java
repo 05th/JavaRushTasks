@@ -13,5 +13,9 @@ public class Solution {
 
     public static void main(String[] args) {
         //напишите тут ваш код
+        String str = Arrays.toString(strings);
+        String str2 = Arrays.toString(ints);
+        System.out.println(str);
+        System.out.println(str2);
     }
 }
