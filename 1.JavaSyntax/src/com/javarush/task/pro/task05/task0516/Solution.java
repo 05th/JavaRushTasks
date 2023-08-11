@@ -14,6 +14,9 @@ public class Solution {
 
     public static void main(String[] args) {
         //напишите тут ваш код
+        int firstPart = array.length % 2 == 0 ? array.length / 2 : array.length / 2 + 1;
+        Arrays.fill(array, 0, firstPart, valueStart);
+        Arrays.fill(array, firstPart, array.length, valueEnd);
         System.out.println(Arrays.toString(array));
     }
 }
