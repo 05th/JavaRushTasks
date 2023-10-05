@@ -9,5 +9,11 @@ public class Bugatti {
     private int year = 2020;
     private String body = "Coupe";
 
-    //напишите тут ваш код
+    public String getBody() {
+        return body;
+    }
+
+    public void setBody(String body) {
+        this.body = body;
+    }
 }
