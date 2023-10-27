@@ -15,7 +15,10 @@ public class Car {
         this.year = year;
     }
 
-    //напишите тут ваш код
+    @Override
+    public int hashCode() {
+        return Objects.hash(model, year);
+    }
 
     public static void main(String[] args) {
         Car lamborghini = new Car("Lamborghini", 2020);
